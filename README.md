@@ -1,4 +1,5 @@
 # Culture à tous
+![Notre logo](assets/logo.jpeg)
 > La culture qui parle de tout, pour tous.
 
 Suivez-nous sur nos réseaux sociaux :
