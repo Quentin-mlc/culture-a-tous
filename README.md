@@ -1,7 +1,11 @@
+<p align="center">
+  <a 
+    <img src="/assets/logo.jpg" alt="Notre logo" width="150">
+  </a>
+</p>
 # Culture à tous
 ![Notre logo](assets/logo.jpg)
 > La culture qui parle de tout, pour tous.
-
 Suivez-nous sur nos réseaux sociaux :
 * **Instagram :** [@culture_a_tous](https://www.instagram.com/culture_a_tous/)
 * **Tiktok :** [@culture_a_tous](https://www.tiktok.com/@culture_a_tous?is_from_webapp=1&sender_device=pc)
