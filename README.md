@@ -4,7 +4,6 @@
   </a>
 </p>
 # Culture à tous
-![Notre logo](assets/logo.jpg)
 > La culture qui parle de tout, pour tous.
 Suivez-nous sur nos réseaux sociaux :
 * **Instagram :** [@culture_a_tous](https://www.instagram.com/culture_a_tous/)
