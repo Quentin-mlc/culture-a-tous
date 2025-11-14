@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo.jpg" alt="Logo Culture à tous" width="250">
+  <img src="assets/logo.jpg" alt="Logo Culture à tous" width="250">
 </p>
 
 <h1 align="center">Culture à tous</h1>
