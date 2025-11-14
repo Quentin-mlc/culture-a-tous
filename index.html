@@ -3,31 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Culture à tous</title>
+    <title>Culture à tous - Le Média</title>
     <style>
         /* CSS simple pour centrer et styliser la page */
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             background-color: #f4f4f4;
             color: #333;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh;
             margin: 0;
             padding: 20px;
             box-sizing: border-box;
         }
 
-        main {
-            text-align: center;
-            background-color: #ffffff;
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-            max-width: 400px;
+        /* Conteneur principal */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
             width: 100%;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
         }
 
         .logo {
@@ -49,51 +46,162 @@
             margin-bottom: 30px;
         }
 
+        /* ========== NOUVEAU : Grille des Catégories ========== */
+        .category-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* 2 colonnes */
+            gap: 20px; /* Espace entre les cartes */
+            margin-bottom: 40px;
+        }
+
+        .category-card {
+            display: block;
+            background-color: #ffffff;
+            border: 1px solid #e5e5e5;
+            padding: 25px;
+            border-radius: 12px;
+            text-decoration: none;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .category-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+        }
+
+        .category-card h3 {
+            margin: 0 0 10px 0;
+            color: #1a1a1a;
+            font-size: 1.3em;
+        }
+
+        .category-card p {
+            margin: 0;
+            color: #444;
+            font-size: 0.95em;
+        }
+        /* ================================================== */
+
+
+        /* Liens sociaux (style "Linktree") */
         .links-container a {
             display: block;
             text-decoration: none;
             color: white;
             padding: 18px;
-            margin: 15px 0;
+            margin: 10px 0;
             border-radius: 8px;
             font-weight: bold;
             font-size: 1.1em;
             transition: transform 0.2s ease;
+            text-align: center;
         }
 
         .links-container a:hover {
-            transform: scale(1.05);
+            transform: scale(1.02);
         }
+        .instagram { background: #E4405F; }
+        .tiktok { background: #000000; }
 
-        /* Couleurs des marques */
-        .instagram {
-            background: #E4405F; /* Couleur Instagram */
+
+        /* Section des articles (inchangée) */
+        .articles-container {
+            margin-top: 40px;
+            width: 100%;
+            text-align: left;
         }
-        
-        .tiktok {
-            background: #000000; /* Couleur TikTok */
+        .articles-container h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .article-link {
+            display: block;
+            background-color: #fdfdfd;
+            border: 1px solid #eee;
+            padding: 15px 20px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            text-decoration: none;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .article-link:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        }
+        .article-link h3 {
+            margin: 0 0 5px 0;
+            color: #222;
+        }
+        .article-link p {
+            margin: 0;
+            color: #555;
+            font-size: 0.9em;
         }
 
     </style>
 </head>
 <body>
 
-    <main>
-        <img src="assets/logo.jpg" alt="Logo Culture à tous" class="logo">
+    <div class="container">
+        <header>
+            <img src="URL_DE_VOTRE_LOGO_ICI" alt="Logo Culture à tous" class="logo">
 
-        <h1>Culture à tous</h1>
-        
-        <p class="slogan">La culture qui parle de tout, pour tous.</p>
+            <h1>Culture à tous</h1>
+            
+            <p class="slogan">La culture qui parle de tout, pour tous.</p>
+        </header>
 
-        <div class="links-container">
-            <a href="https://www.instagram.com/culture_a_tous/" class="instagram" target="_blank">
-                Suivez-nous sur Instagram
-            </a>
-            <a href="https://www.tiktok.com/@culture_a_tous" class="tiktok" target="_blank">
-                Suivez-nous sur TikTok
-            </a>
-        </div>
-    </main>
+        <main>
+
+            <div class="category-grid">
+                
+                <a href="interviews.html" class="category-card">
+                    <h3>Interviews</h3>
+                    <p>Nos discussions et entretiens exclusifs.</p>
+                </a>
+                
+                <a href="concerts.html" class="category-card">
+                    <h3>Concerts</h3>
+                    <p>Nos reportages et critiques de live.</p>
+                </a>
+                
+                <a href="evenements.html" class="category-card">
+                    <h3>Événements</h3>
+                    <p>Couverture des festivals, expos, et plus.</p>
+                </a>
+                
+                <a href="articles.html" class="category-card">
+                    <h3>Articles</h3>
+                    <p>Toutes nos analyses, news et chroniques.</p>
+                </a>
+
+            </div>
+            <div class="links-container">
+                <a href="https://www.instagram.com/culture_a_tous/" class="instagram" target="_blank">
+                    Suivez-nous sur Instagram
+                </a>
+                <a href="https://www.tiktok.com/@culture_a_tous" class="tiktok" target="_blank">
+                    Suivez-nous sur TikTok
+                </a>
+            </div>
+
+
+            <div class="articles-container">
+                <h2>Nos derniers articles</h2>
+                <a href="LIEN_ARTICLE_1" class="article-link" target="_blank">
+                    <h3>Titre de votre premier article</h3>
+                    <p>Un court résumé ou une accroche...</p>
+                </a>
+                <a href="LIEN_ARTICLE_2" class="article-link" target="_blank">
+                    <h3>Titre de votre deuxième article</h3>
+                    <p>Un autre résumé pour un autre super article...</p>
+                </a>
+            </div>
+
+        </main>
+    </div>
 
 </body>
 </html>
