@@ -1,4 +1,4 @@
-# culture-a-tous
+# Culture à tous
 Bienvenue sur notre média
 
 Suivez-nous sur nos réseaux sociaux :
