@@ -1,5 +1,5 @@
 <p align="center">
-  <a 
+  <a href="https://www.instagram.com/culture_a_tous">
     <img src="/assets/logo.jpg" alt="Notre logo" width="150">
   </a>
 </p>
